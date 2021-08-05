@@ -1,0 +1,39 @@
+:root {
+  --documentRed: #E50914;
+  --documentBlack: #141414;
+  --documentMenuText: #AAA;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--documentBlack);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  color: var(--documentRed);
+  font-family: 'Arial Black', Times;
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--documentMenuText);
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: white;
+}
